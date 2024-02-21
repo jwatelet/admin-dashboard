@@ -23,9 +23,107 @@ html {
   min-height: 100vh;
 }
 
+/* header */
+
 .header {
   background-color: var(--white);
   grid-column: 2 / 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-row {
+  align-items: center;
+}
+
+.second-row {
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  border-radius: 15px;
+  background-color: var(--gray);
+  border: none;
+  width: 300px;
+  height: 1.3rem;
+}
+
+.search-bar img {
+  height: 1.8rem;
+}
+
+.profile-area .avatar {
+  height: 2.5rem;
+  background-color: var(--orange);
+  border-radius: 12011987px;
+  padding: 5px;
+}
+
+.hello .avatar {
+  height: 4.0rem;
+  background-color: var(--orange);
+  border-radius: 12011987px;
+  padding: 5px;
+}
+
+.hello {
+  display: flex;
+  align-items: center;
+}
+
+.hello .text .hi {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.hello .text .name {
+  font-weight: 500;
+}
+
+.hello .text {
+  padding: 0 15px;
+}
+
+.profile-area .icon {
+  height: 1.5rem;
+  padding: 0 10px;
+}
+
+.profile-area {
+  display: flex;
+  align-items: center;
+}
+
+.profile-area p {
+  padding: 0 10px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 25px;
+  margin: 0 5px;
+  font-weight: 400;
 }
 
 /* nav */
