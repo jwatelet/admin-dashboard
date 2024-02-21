@@ -172,3 +172,17 @@ ul li a img {
 .trending .items {
   background-color: var(--white);
 }
+
+.project img {
+  height: 70px;
+}
+
+.infos .user {
+  font-weight: 400;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
